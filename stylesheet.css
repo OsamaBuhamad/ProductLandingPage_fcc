@@ -1,12 +1,22 @@
-#main{
-    background-color: #6b6461;
+main{
+    background-color: moccasin;
+    display: flex;
+    flex-direction: column;
+}
+
+#header{
+    justify-content: flex-start;
+}
+#nav-bar{
+    
 }
 
 .nav-link{
-    
+    style="float: right"
     position: fixed;
     top: 0;
     width: 100%;
+    justify-content: center;
 }
 
 ul{
@@ -15,11 +25,14 @@ ul{
     margin: 10;
     padding: 20;
     overflow: hidden;
+    display: flex;
+    
     
 }
 
 li {
     display: inline-block;
+    width: 20px;
     
     
 
@@ -28,7 +41,7 @@ li {
 li a {
   display: block;
   text-align: center;
-  padding: 16px 29px;
+  padding: 16px 19px;
   background-color: beige;
     text-decoration: none;
     font-family: cursive;
@@ -42,10 +55,31 @@ a:hover{
 
 #header-img{
     
-/*    align-self: flex-end;*/
     width: 50px;
     height: 50px;
     
+}
+
+
+#body{
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.imgs{
+    margin-left: auto;
+    margin-right: auto;
     
-    
+}
+
+#origin{
+    padding: 1.5em;
+}
+#show{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    text-align:center;
 }
