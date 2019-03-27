@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <main id="main">
 <header id="header">
+    
     <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <link rel="stylesheet" href="stylesheet.css">
     
@@ -33,7 +35,17 @@
         <br><br><br><br><br><br>
         <img class="imgs" src="videos/chestnuts_fire.gif" width="450px" height="250px" alt="roasting of fire">
     
-        <br><br><br><br><br><br><br><br>
+        <br><br>
+        <div id="content">
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <label id="email-label" for="email">Subscribe to get our latest news </label>
+            <input id="email" type="email" name="email" title="Email" pattern=".+@.+.com" required placeholder="Email Address" autocomplete="off">
+            
+            <input id="submit" type="submit" value="Submit">
+        
+        </form>
+        </div>
+        <br><br><br><br><br><br>
         
         <div id="origin">
             <h2>Growing Our Chestnuts</h2>

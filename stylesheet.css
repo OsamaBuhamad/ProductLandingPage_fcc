@@ -6,6 +6,8 @@ main{
 
 #header{
     justify-content: flex-start;
+    
+
 }
 #nav-bar{
      position: fixed;
@@ -104,6 +106,9 @@ a:hover{
 #show{
     display: flex;
     justify-content: center;
+     @media (max-width: 800px) {
+    flex-direction: column;
+    }
 }
 
 h2{
@@ -125,7 +130,8 @@ h2{
     height: 10em;
     position: relative 
         
-        
+
+       
     
 
 }
@@ -171,6 +177,14 @@ h2{
     margin-right: -50%;
     transform: translate(-50%, -50%) }
     
+
+
+@media (max-width: 600px) {
+
+    
+    .package button{
+        background-color: red;}
+    
+    
 }
-
-
+    
